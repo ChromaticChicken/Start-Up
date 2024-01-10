@@ -1,6 +1,3 @@
 # Start-Up
 
 GOODBYE
-
-HELLO
-
