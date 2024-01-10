@@ -1,3 +1,3 @@
 # Start-Up
 
-[Notes](README.md)
+[Notes](notes.md)
