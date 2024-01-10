@@ -1,3 +1,3 @@
 # Start-Up
 
-GOODBYE
+[Notes](README.md)
