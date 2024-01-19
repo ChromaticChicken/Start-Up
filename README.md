@@ -4,7 +4,7 @@
 This will be a dashboard integrating with eBay's REST API to show current information about the eBay store, as well as be able to automaticaly store important seller status information, such as what items have been sold and for what amount.
 
 
-##Design
+## Design
 ![eBay Dashboard Mockup](eBay-Dashboard-Mockup.png)
 
 
