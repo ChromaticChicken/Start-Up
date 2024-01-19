@@ -18,7 +18,7 @@ data incoming from eBay's REST API
 
 
 ## Technologies
- - **HTML** - three HTML pages. One for login, one for basic Dashboard, and one for view history
+ - **HTML** - Three HTML pages. One for login, one for basic Dashboard, and one for view history
  - **CSS** - Make the Dashboard a bit more exciting than the Mockup add in ways to break up the information, and add some color
  - **JavaScript** - connect to eBay REST API, store history information
  - **DB/Login** Store Users, their OAUTH token and seller history information. Can't do/see anything on the other pages until logged in
