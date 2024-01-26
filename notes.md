@@ -10,3 +10,6 @@ Public Ipv4 54.87.13.175
 # HTTPS
 I am still not 100% certain how the certificate process works meaning not specifically for my website but rather for websites in general, but I have it set up for my website
 [https://ebay-dashboard.click](https://ebay-dashboard.click)
+
+# HTML
+Nice refresher on HTML and the differences between it and other markdown languages such as .md files
