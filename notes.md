@@ -13,3 +13,6 @@ I am still not 100% certain how the certificate process works meaning not specif
 
 # HTML
 Nice refresher on HTML and the differences between it and other markdown languages such as .md files
+
+# Startup HTML
+After a long time of trying to figure out what was wanted from me from this assignment I think I finally figured it out and did what was wanted. I don't think anything too exciting happened with it... **except** when I acidentally cloned Simon into my repository rather than making it a submodule fixing that was a little bit more work, but we got there in the end :)
