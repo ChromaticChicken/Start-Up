@@ -3,31 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-
     <title>eBay-Dashboard.click</title>
     <link rel="stylesheet" href="main.css" />
-
-    <h1>eBay Dashboard</h1>
-    <menu>
-      <a href="index.html">Home</a>
-      <a href="websocket.html">View your dashboard</a>
-      <a href="database.html">View saved data</a>
-    </menu>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
-    <section>
+  <body class="bg-dark text-light">
+    <header class="container-fluid">
+      <nav class="navbar fixed-top navbar-dark">
+        <a href="index.html" class="navbar-brand">eBay Dashboard</a>
+        <menu class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="websocket.html">View your dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="database.html">View saved data</a>
+          </li>
+        </menu>
+      </nav>
+    </header>
+    <main class="container-fluid bg-secondary text-center">
+      <section>
+        <h1>Welcome</h1>
         <p>Log in to use eBay-Dashboard</p>
         <p>Login?</p>
         <p>Register?</p>
-        <p>The login will let them sign in using the account created here, the register page will let them make a new log in and then redirect them to eBay's sign 
-          in page, to create the Oauth token. The token will be saved in the database and then used to access the eBay API.
+        <p>The login will let them sign in using the account created here, the register page will let them make a new log in and then redirect them to eBay's sign in page, to create the Oauth token. The token will be saved in the database and then used to access the eBay API.
         </p>
-    </section>
+      </section>
+    </main>
+    <footer class="bg-dark text-white-50">
+      <section class="container-fluid">
+        <span class="text-reset">Author Name: Jacob Clay</span>
+        <a class="text-reset" href="https://github.com/ChromaticChicken/Start-Up">Source</a>
+      </section>
+    </footer> 
   </body>
-  <footer>
-    <section>
-        <a href="https://github.com/ChromaticChicken/Start-Up">GitHub</a>
-    </section>
-  </footer>
 </html>
