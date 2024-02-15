@@ -2,14 +2,17 @@ body {
   display: flex;
   flex-direction: column;
   min-width: 375px;
+  min-height: 100vh;
 }
 
 header {
   flex: 0 80px;
+  margin-top: auto;
 }
 
 main {
   flex: 1 calc(100vh - 110px);
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,9 +44,19 @@ footer a {
   float: right;
 }
 
+@media (max-height: 800px) {
+  header {
+    transform: scale(.9);
+    transform-origin: top left;
+    flex: 0 calc(10vh); /* change every 10px  */
+  }
+}
+
 @media (max-height: 600px) {
   header {
-    display: none;
+    transform: scale(.8);
+    transform-origin: top left;
+    flex: 0 60px;
   }
   footer {
     display: none;
@@ -52,3 +65,5 @@ footer a {
     flex: 1 100vh;
   }
 }
+
+
