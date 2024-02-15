@@ -25,3 +25,7 @@ data incoming from eBay's REST API
  - **React** use React web framework
 
 [Notes](notes.md)
+
+
+# CSS 
+Added basic CSS mostly to the menu and the background, it is pretty much the exact same as simon, but I don't care too much about how what is currently there looks, once I can input the Javascript of connecting to eBay's API and therefore start displaying things then we will have a different story

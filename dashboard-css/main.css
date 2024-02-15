@@ -50,20 +50,35 @@ footer a {
     transform-origin: top left;
     flex: 0 calc(10vh); /* change every 10px  */
   }
+  main {
+    flex: 1 calc(90vh - 30px);
+  }
+}
+
+@media (max-height: 700px) {
+  header {
+    transform: scale(.85);
+    transform-origin: top left;
+    flex: 0 calc(10vh);
+  }
 }
 
 @media (max-height: 600px) {
   header {
     transform: scale(.8);
     transform-origin: top left;
-    flex: 0 60px;
+    flex: 0 calc(10vh);
   }
   footer {
     display: none;
   }
   main {
-    flex: 1 100vh;
+    flex: 1 calc(90vh);
   }
 }
 
-
+@media (max-height: 500px) {
+  header {
+    display: none;
+  }
+}

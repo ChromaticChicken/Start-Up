@@ -17,3 +17,5 @@ Nice refresher on HTML and the differences between it and other markdown languag
 # Startup HTML
 After a long time of trying to figure out what was wanted from me from this assignment I think I finally figured it out and did what was wanted. I don't think anything too exciting happened with it... **except** when I acidentally cloned Simon into my repository rather than making it a submodule fixing that was a little bit more work, but we got there in the end :)
 
+# Startup CSS
+I will be honest and say I mostly just copied what the Simon page was doing, now that being said I did add a tiny bit and I am planning on adding more, but at this point there isn't the items there to be able to add the CSS to.
